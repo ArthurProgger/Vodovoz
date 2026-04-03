@@ -17570,6 +17570,7 @@
                     <property name="MemberName" />
                     <property name="CanFocus">True</property>
                     <property name="Label" translatable="yes">Информация</property>
+                    <property name="Active">True</property>
                     <property name="DrawIndicator">False</property>
                     <property name="HasLabel">True</property>
                     <property name="UseUnderline">True</property>
@@ -17670,7 +17671,21 @@
                   </packing>
                 </child>
                 <child>
-                  <placeholder />
+                  <widget class="Gamma.GtkWidgets.yRadioButton" id="toggleEdo">
+                    <property name="MemberName" />
+                    <property name="CanFocus">True</property>
+                    <property name="Label" translatable="yes">ЭДО</property>
+                    <property name="DrawIndicator">False</property>
+                    <property name="HasLabel">True</property>
+                    <property name="UseUnderline">True</property>
+                    <property name="Group">group1</property>
+                  </widget>
+                  <packing>
+                    <property name="Position">9</property>
+                    <property name="AutoSize">True</property>
+                    <property name="Expand">False</property>
+                    <property name="Fill">False</property>
+                  </packing>
                 </child>
                 <child>
                   <widget class="Gamma.GtkWidgets.yButton" id="btnCopyEntityId">
@@ -17702,7 +17717,7 @@
               <widget class="Gtk.Notebook" id="ntbOrderEdit">
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
-                <property name="CurrentPage">0</property>
+                <property name="CurrentPage">6</property>
                 <child>
                   <widget class="Gtk.VBox" id="vboxInfo">
                     <property name="MemberName" />
@@ -21298,6 +21313,18 @@
                   <widget class="Gtk.Label" id="label29">
                     <property name="MemberName" />
                     <property name="LabelProp" translatable="yes">Документы</property>
+                  </widget>
+                  <packing>
+                    <property name="type">tab</property>
+                  </packing>
+                </child>
+                <child>
+                  <placeholder />
+                </child>
+                <child>
+                  <widget class="Gtk.Label" id="labelPageEdo">
+                    <property name="MemberName" />
+                    <property name="LabelProp" translatable="yes">ЭДО</property>
                   </widget>
                   <packing>
                     <property name="type">tab</property>
