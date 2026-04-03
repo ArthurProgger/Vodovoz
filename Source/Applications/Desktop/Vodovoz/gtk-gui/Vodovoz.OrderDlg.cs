@@ -468,6 +468,8 @@ namespace Vodovoz
 
 		private global::Gtk.Label label29;
 
+		private global::Vodovoz.Views.Edo.EdoForOrderView edofororderview1;
+
 		private global::Gtk.Label labelPageEdo;
 
 		private global::Gtk.HBox hboxStatusButtons;
@@ -3032,14 +3034,18 @@ namespace Vodovoz
 			this.label29.LabelProp = global::Mono.Unix.Catalog.GetString("Документы");
 			this.ntbOrderEdit.SetTabLabel(this.vboxDocuments, this.label29);
 			this.label29.ShowAll();
+			// Container child ntbOrderEdit.Gtk.Notebook+NotebookChild
+			this.edofororderview1 = new global::Vodovoz.Views.Edo.EdoForOrderView();
+			this.edofororderview1.Events = ((global::Gdk.EventMask)(256));
+			this.edofororderview1.Name = "edofororderview1";
+			this.ntbOrderEdit.Add(this.edofororderview1);
+			global::Gtk.Notebook.NotebookChild w245 = ((global::Gtk.Notebook.NotebookChild)(this.ntbOrderEdit[this.edofororderview1]));
+			w245.Position = 6;
 			// Notebook tab
-			global::Gtk.Label w245 = new global::Gtk.Label();
-			w245.Visible = true;
-			this.ntbOrderEdit.Add(w245);
 			this.labelPageEdo = new global::Gtk.Label();
 			this.labelPageEdo.Name = "labelPageEdo";
 			this.labelPageEdo.LabelProp = global::Mono.Unix.Catalog.GetString("ЭДО");
-			this.ntbOrderEdit.SetTabLabel(w245, this.labelPageEdo);
+			this.ntbOrderEdit.SetTabLabel(this.edofororderview1, this.labelPageEdo);
 			this.labelPageEdo.ShowAll();
 			this.vbox2.Add(this.ntbOrderEdit);
 			global::Gtk.Box.BoxChild w246 = ((global::Gtk.Box.BoxChild)(this.vbox2[this.ntbOrderEdit]));

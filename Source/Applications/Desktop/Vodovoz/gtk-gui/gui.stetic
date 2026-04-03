@@ -1146,7 +1146,6 @@
                         <property name="MemberName" />
                         <property name="CanFocus">True</property>
                         <property name="Label" translatable="yes">Информация</property>
-                        <property name="Active">True</property>
                         <property name="DrawIndicator">False</property>
                         <property name="HasLabel">True</property>
                         <property name="UseUnderline">True</property>
@@ -21319,7 +21318,13 @@
                   </packing>
                 </child>
                 <child>
-                  <placeholder />
+                  <widget class="Vodovoz.Views.Edo.EdoForOrderView" id="edofororderview1">
+                    <property name="MemberName" />
+                    <property name="Events">ButtonPressMask</property>
+                  </widget>
+                  <packing>
+                    <property name="Position">6</property>
+                  </packing>
                 </child>
                 <child>
                   <widget class="Gtk.Label" id="labelPageEdo">
@@ -197320,7 +197325,14 @@ not tooltip</property>
                       </packing>
                     </child>
                     <child>
-                      <placeholder />
+                      <widget class="Vodovoz.Views.Edo.EdoTaskInOrderResolveView" id="edotaskinorderresolveview1">
+                        <property name="MemberName" />
+                        <property name="Events">ButtonPressMask</property>
+                      </widget>
+                      <packing>
+                        <property name="Position">2</property>
+                        <property name="AutoSize">True</property>
+                      </packing>
                     </child>
                   </widget>
                   <packing>
