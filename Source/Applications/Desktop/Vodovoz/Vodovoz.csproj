@@ -2159,6 +2159,18 @@
     <Compile Include="gtk-gui\Vodovoz.Views.WageCalculation.WageDistrictLevelRatesAssigningView.cs" />
     <Compile Include="ViewWidgets\Reports\OrderDateFilterView.cs" />
     <Compile Include="gtk-gui\Vodovoz.ViewWidgets.Reports.OrderDateFilterView.cs" />
+    <Compile Include="Views\Edo\EdoForOrderView.cs" />
+    <Compile Include="gtk-gui\Vodovoz.Views.Edo.EdoForOrderView.cs" />
+    <Compile Include="Views\Edo\EdoDocflowsView.cs" />
+    <Compile Include="gtk-gui\Vodovoz.Views.Edo.EdoDocflowsView.cs" />
+    <Compile Include="Views\Edo\EdoTaskInOrderView.cs" />
+    <Compile Include="gtk-gui\Vodovoz.Views.Edo.EdoTaskInOrderView.cs" />
+    <Compile Include="Views\Edo\EdoTransferTaskInOrderView.cs" />
+    <Compile Include="gtk-gui\Vodovoz.Views.Edo.EdoTransferTaskInOrderView.cs" />
+    <Compile Include="Views\Edo\EdoReceiptsInOrderView.cs" />
+    <Compile Include="gtk-gui\Vodovoz.Views.Edo.EdoReceiptsInOrderView.cs" />
+    <Compile Include="Views\Edo\EdoTaskInOrderResolveView.cs" />
+    <Compile Include="gtk-gui\Vodovoz.Views.Edo.EdoTaskInOrderResolveView.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
