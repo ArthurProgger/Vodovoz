@@ -197139,7 +197139,7 @@ not tooltip</property>
       </widget>
     </child>
   </widget>
-  <widget class="Gtk.Bin" id="Vodovoz.Views.Edo.EdoForOrderView" design-size="859 406">
+  <widget class="Gtk.Bin" id="Vodovoz.Views.Edo.EdoForOrderView" design-size="859 433">
     <property name="MemberName" />
     <property name="Visible">False</property>
     <child>
@@ -197309,9 +197309,8 @@ not tooltip</property>
                       </widget>
                       <packing>
                         <property name="Position">0</property>
-                        <property name="AutoSize">True</property>
+                        <property name="AutoSize">False</property>
                         <property name="Expand">False</property>
-                        <property name="Fill">False</property>
                       </packing>
                     </child>
                     <child>
@@ -197320,7 +197319,7 @@ not tooltip</property>
                       </widget>
                       <packing>
                         <property name="Position">1</property>
-                        <property name="AutoSize">True</property>
+                        <property name="AutoSize">False</property>
                         <property name="Expand">False</property>
                         <property name="Fill">False</property>
                       </packing>
@@ -197332,7 +197331,7 @@ not tooltip</property>
                       </widget>
                       <packing>
                         <property name="Position">2</property>
-                        <property name="AutoSize">True</property>
+                        <property name="AutoSize">False</property>
                       </packing>
                     </child>
                   </widget>
@@ -197383,16 +197382,87 @@ not tooltip</property>
                       </widget>
                       <packing>
                         <property name="Position">0</property>
-                        <property name="AutoSize">True</property>
+                        <property name="AutoSize">False</property>
+                        <property name="Expand">False</property>
                       </packing>
                     </child>
                     <child>
-                      <placeholder />
+                      <widget class="Gtk.VSeparator" id="vseparator3">
+                        <property name="MemberName" />
+                      </widget>
+                      <packing>
+                        <property name="Position">1</property>
+                        <property name="AutoSize">True</property>
+                        <property name="Expand">False</property>
+                        <property name="Fill">False</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <widget class="Gamma.GtkWidgets.yVBox" id="vboxProblemDetails">
+                        <property name="MemberName" />
+                        <property name="Spacing">6</property>
+                        <child>
+                          <widget class="Gamma.GtkWidgets.yLabel" id="labelProblemDescription">
+                            <property name="MemberName" />
+                            <property name="Xalign">0</property>
+                            <property name="LabelProp" translatable="yes">Описание:</property>
+                          </widget>
+                          <packing>
+                            <property name="Position">0</property>
+                            <property name="AutoSize">False</property>
+                            <property name="Expand">False</property>
+                            <property name="Fill">False</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <widget class="Gamma.GtkWidgets.yTextView" id="textViewProblemDescription">
+                            <property name="MemberName" />
+                            <property name="CanFocus">True</property>
+                            <property name="Editable">False</property>
+                            <property name="Text" translatable="yes" />
+                            <property name="WrapMode">Word</property>
+                          </widget>
+                          <packing>
+                            <property name="Position">1</property>
+                            <property name="AutoSize">False</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <widget class="Gamma.GtkWidgets.yLabel" id="labelProblemRecomendation">
+                            <property name="MemberName" />
+                            <property name="Xalign">0</property>
+                            <property name="LabelProp" translatable="yes">Рекомендация:</property>
+                          </widget>
+                          <packing>
+                            <property name="Position">2</property>
+                            <property name="AutoSize">False</property>
+                            <property name="Expand">False</property>
+                            <property name="Fill">False</property>
+                          </packing>
+                        </child>
+                        <child>
+                          <widget class="Gamma.GtkWidgets.yTextView" id="textViewProblemDescription1">
+                            <property name="MemberName" />
+                            <property name="CanFocus">True</property>
+                            <property name="Editable">False</property>
+                            <property name="Text" translatable="yes" />
+                            <property name="WrapMode">Word</property>
+                          </widget>
+                          <packing>
+                            <property name="Position">3</property>
+                            <property name="AutoSize">False</property>
+                          </packing>
+                        </child>
+                      </widget>
+                      <packing>
+                        <property name="Position">2</property>
+                        <property name="AutoSize">False</property>
+                      </packing>
                     </child>
                   </widget>
                   <packing>
                     <property name="Position">3</property>
-                    <property name="AutoSize">True</property>
+                    <property name="AutoSize">False</property>
                   </packing>
                 </child>
               </widget>
