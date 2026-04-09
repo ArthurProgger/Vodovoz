@@ -1146,6 +1146,7 @@
                         <property name="MemberName" />
                         <property name="CanFocus">True</property>
                         <property name="Label" translatable="yes">Информация</property>
+                        <property name="Active">True</property>
                         <property name="DrawIndicator">False</property>
                         <property name="HasLabel">True</property>
                         <property name="UseUnderline">True</property>
@@ -17569,7 +17570,6 @@
                     <property name="MemberName" />
                     <property name="CanFocus">True</property>
                     <property name="Label" translatable="yes">Информация</property>
-                    <property name="Active">True</property>
                     <property name="DrawIndicator">False</property>
                     <property name="HasLabel">True</property>
                     <property name="UseUnderline">True</property>
@@ -197441,7 +197441,7 @@ not tooltip</property>
                           </packing>
                         </child>
                         <child>
-                          <widget class="Gamma.GtkWidgets.yTextView" id="textViewProblemDescription1">
+                          <widget class="Gamma.GtkWidgets.yTextView" id="textViewProblemRecommendation">
                             <property name="MemberName" />
                             <property name="CanFocus">True</property>
                             <property name="Editable">False</property>
