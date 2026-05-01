@@ -11868,7 +11868,6 @@
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
                 <property name="Label" translatable="yes">Информация</property>
-                <property name="Active">True</property>
                 <property name="DrawIndicator">False</property>
                 <property name="HasLabel">True</property>
                 <property name="UseUnderline">True</property>
@@ -13198,6 +13197,7 @@
                             <property name="MemberName" />
                             <property name="Events">ButtonPressMask</property>
                             <property name="CanEditReference">True</property>
+                            <property name="CanDisposeEntitySelectorFactory">False</property>
                             <property name="CanOpenWithoutTabParent">False</property>
                           </widget>
                           <packing>
@@ -13221,6 +13221,7 @@
                             <property name="MemberName" />
                             <property name="Events">ButtonPressMask</property>
                             <property name="CanEditReference">True</property>
+                            <property name="CanDisposeEntitySelectorFactory">False</property>
                             <property name="CanOpenWithoutTabParent">False</property>
                           </widget>
                           <packing>
@@ -13244,6 +13245,7 @@
                             <property name="MemberName" />
                             <property name="Events">ButtonPressMask</property>
                             <property name="CanEditReference">True</property>
+                            <property name="CanDisposeEntitySelectorFactory">False</property>
                             <property name="CanOpenWithoutTabParent">False</property>
                           </widget>
                           <packing>
@@ -14615,7 +14617,6 @@
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
                 <property name="Label" translatable="yes">Информация</property>
-                <property name="Active">True</property>
                 <property name="DrawIndicator">False</property>
                 <property name="HasLabel">True</property>
                 <property name="UseUnderline">True</property>
@@ -14889,6 +14890,7 @@
                     <property name="MemberName" />
                     <property name="Events">ButtonPressMask</property>
                     <property name="CanEditReference">True</property>
+                    <property name="CanDisposeEntitySelectorFactory">False</property>
                     <property name="CanOpenWithoutTabParent">False</property>
                   </widget>
                   <packing>
@@ -14912,6 +14914,7 @@
                     <property name="MemberName" />
                     <property name="Events">ButtonPressMask</property>
                     <property name="CanEditReference">True</property>
+                    <property name="CanDisposeEntitySelectorFactory">False</property>
                     <property name="CanOpenWithoutTabParent">False</property>
                   </widget>
                   <packing>
@@ -15349,6 +15352,7 @@
                         <property name="MemberName" />
                         <property name="Events">ButtonPressMask</property>
                         <property name="CanEditReference">True</property>
+                        <property name="CanDisposeEntitySelectorFactory">False</property>
                         <property name="CanOpenWithoutTabParent">False</property>
                       </widget>
                       <packing>
@@ -16740,6 +16744,7 @@
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">True</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -16848,6 +16853,7 @@
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">True</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -17114,6 +17120,7 @@
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">True</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -17137,6 +17144,7 @@
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">True</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -17562,7 +17570,6 @@
                     <property name="MemberName" />
                     <property name="CanFocus">True</property>
                     <property name="Label" translatable="yes">Информация</property>
-                    <property name="Active">True</property>
                     <property name="DrawIndicator">False</property>
                     <property name="HasLabel">True</property>
                     <property name="UseUnderline">True</property>
@@ -23217,6 +23224,7 @@
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
                 <signal name="ChangedByUser" handler="OnEntityVMEntryDeliveryPointChangedByUser" />
               </widget>
@@ -24870,6 +24878,7 @@
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -24892,6 +24901,7 @@
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -24914,6 +24924,7 @@
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -26221,8 +26232,8 @@
                 <property name="MemberName" />
                 <property name="Xalign">1</property>
                 <property name="LabelProp" translatable="yes">Частота заказов:</property>
-          </widget>
-          <packing>
+              </widget>
+              <packing>
                 <property name="TopAttach">4</property>
                 <property name="BottomAttach">5</property>
                 <property name="AutoSize">True</property>
@@ -26885,6 +26896,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">True</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
             <signal name="Changed" handler="OnEntryCounterpartyChanged" />
           </widget>
@@ -26910,6 +26922,7 @@ not tooltip</property>
             <property name="Sensitive">False</property>
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">True</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -28053,6 +28066,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">True</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -31443,6 +31457,7 @@ not tooltip</property>
                         <property name="MemberName" />
                         <property name="Events">ButtonPressMask</property>
                         <property name="CanEditReference">True</property>
+                        <property name="CanDisposeEntitySelectorFactory">False</property>
                         <property name="CanOpenWithoutTabParent">False</property>
                       </widget>
                       <packing>
@@ -31747,6 +31762,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -31992,6 +32008,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -32064,6 +32081,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -32237,6 +32255,7 @@ not tooltip</property>
                 <property name="Sensitive">False</property>
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -32408,6 +32427,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -32608,6 +32628,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -34339,7 +34360,6 @@ not tooltip</property>
                         <property name="MemberName" />
                         <property name="CanFocus">True</property>
                         <property name="Label" translatable="yes">Все</property>
-                        <property name="Active">True</property>
                         <property name="DrawIndicator">True</property>
                         <property name="HasLabel">True</property>
                         <property name="UseUnderline">True</property>
@@ -35011,6 +35031,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">False</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -35666,6 +35687,7 @@ not tooltip</property>
                 <property name="Sensitive">False</property>
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -36005,6 +36027,7 @@ not tooltip</property>
                         <property name="MemberName" />
                         <property name="Events">ButtonPressMask</property>
                         <property name="CanEditReference">False</property>
+                        <property name="CanDisposeEntitySelectorFactory">False</property>
                         <property name="CanOpenWithoutTabParent">False</property>
                         <signal name="Changed" handler="OnReferenceCounterpartyFromChanged" />
                       </widget>
@@ -36312,6 +36335,7 @@ not tooltip</property>
                         <property name="MemberName" />
                         <property name="Events">ButtonPressMask</property>
                         <property name="CanEditReference">False</property>
+                        <property name="CanDisposeEntitySelectorFactory">False</property>
                         <property name="CanOpenWithoutTabParent">False</property>
                         <signal name="Changed" handler="OnReferenceCounterpartyToChanged" />
                       </widget>
@@ -38782,6 +38806,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -38955,6 +38980,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">False</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -39136,6 +39162,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -42219,6 +42246,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">True</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -43168,6 +43196,7 @@ not tooltip</property>
                     <property name="MemberName" />
                     <property name="Events">ButtonPressMask</property>
                     <property name="CanEditReference">True</property>
+                    <property name="CanDisposeEntitySelectorFactory">False</property>
                     <property name="CanOpenWithoutTabParent">False</property>
                   </widget>
                   <packing>
@@ -43547,6 +43576,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">True</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -43571,6 +43601,7 @@ not tooltip</property>
             <property name="Sensitive">False</property>
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">True</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -44467,6 +44498,7 @@ not tooltip</property>
                     <property name="MemberName" />
                     <property name="Events">ButtonPressMask</property>
                     <property name="CanEditReference">True</property>
+                    <property name="CanDisposeEntitySelectorFactory">False</property>
                     <property name="CanOpenWithoutTabParent">False</property>
                   </widget>
                   <packing>
@@ -44523,6 +44555,7 @@ not tooltip</property>
                     <property name="MemberName" />
                     <property name="Events">ButtonPressMask</property>
                     <property name="CanEditReference">False</property>
+                    <property name="CanDisposeEntitySelectorFactory">False</property>
                     <property name="CanOpenWithoutTabParent">False</property>
                   </widget>
                   <packing>
@@ -44546,6 +44579,7 @@ not tooltip</property>
                     <property name="MemberName" />
                     <property name="Events">ButtonPressMask</property>
                     <property name="CanEditReference">True</property>
+                    <property name="CanDisposeEntitySelectorFactory">False</property>
                     <property name="CanOpenWithoutTabParent">False</property>
                   </widget>
                   <packing>
@@ -45015,6 +45049,7 @@ not tooltip</property>
                         <property name="MemberName" />
                         <property name="Events">ButtonPressMask</property>
                         <property name="CanEditReference">True</property>
+                        <property name="CanDisposeEntitySelectorFactory">False</property>
                         <property name="CanOpenWithoutTabParent">False</property>
                       </widget>
                       <packing>
@@ -45846,6 +45881,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">True</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -46011,7 +46047,6 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
                 <property name="Label" translatable="yes">Основное</property>
-                <property name="Active">True</property>
                 <property name="DrawIndicator">False</property>
                 <property name="HasLabel">True</property>
                 <property name="UseUnderline">True</property>
@@ -49500,6 +49535,7 @@ not tooltip</property>
                                 <property name="MemberName" />
                                 <property name="CanFocus">True</property>
                                 <property name="Label" translatable="yes">За период</property>
+                                <property name="Active">True</property>
                                 <property name="DrawIndicator">True</property>
                                 <property name="HasLabel">True</property>
                                 <property name="UseUnderline">True</property>
@@ -49548,7 +49584,6 @@ not tooltip</property>
                                 <property name="MemberName" />
                                 <property name="CanFocus">True</property>
                                 <property name="Label" translatable="yes">За вчера</property>
-                                <property name="Active">True</property>
                                 <property name="DrawIndicator">True</property>
                                 <property name="HasLabel">True</property>
                                 <property name="UseUnderline">True</property>
@@ -52841,6 +52876,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -53243,6 +53279,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -54275,6 +54312,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -54913,6 +54951,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">True</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -56656,6 +56695,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">False</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -57894,8 +57934,8 @@ not tooltip</property>
                 <property name="Fill">False</property>
               </packing>
             </child>
-                  </widget>
-                  <packing>
+          </widget>
+          <packing>
             <property name="Position">2</property>
             <property name="AutoSize">True</property>
             <property name="Expand">False</property>
@@ -58067,6 +58107,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">False</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -61467,6 +61508,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">False</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
                 <signal name="Changed" handler="OnEntryClientChanged" />
               </widget>
@@ -62696,6 +62738,7 @@ not tooltip</property>
                     <property name="MemberName" />
                     <property name="Events">ButtonPressMask</property>
                     <property name="CanEditReference">False</property>
+                    <property name="CanDisposeEntitySelectorFactory">False</property>
                     <property name="CanOpenWithoutTabParent">False</property>
                   </widget>
                   <packing>
@@ -63386,6 +63429,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">False</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -67615,6 +67659,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">False</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -76525,6 +76570,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">False</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -76999,7 +77045,6 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
                 <property name="Label" translatable="yes">Информация</property>
-                <property name="Active">True</property>
                 <property name="DrawIndicator">False</property>
                 <property name="HasLabel">True</property>
                 <property name="UseUnderline">True</property>
@@ -81472,6 +81517,7 @@ not tooltip</property>
                 <property name="Sensitive">False</property>
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">False</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -82212,7 +82258,6 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
                 <property name="Label" translatable="yes">Распределение платежа</property>
-                <property name="Active">True</property>
                 <property name="DrawIndicator">False</property>
                 <property name="HasLabel">True</property>
                 <property name="UseUnderline">True</property>
@@ -83897,6 +83942,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">False</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -84129,6 +84175,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -85709,6 +85756,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">False</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -86069,6 +86117,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">False</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -86486,6 +86535,7 @@ not tooltip</property>
                                 <property name="MemberName" />
                                 <property name="Events">ButtonPressMask</property>
                                 <property name="CanEditReference">False</property>
+                                <property name="CanDisposeEntitySelectorFactory">False</property>
                                 <property name="CanOpenWithoutTabParent">False</property>
                               </widget>
                               <packing>
@@ -90001,6 +90051,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">False</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -90023,6 +90074,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">False</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -90045,6 +90097,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">False</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -92315,7 +92368,6 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
                 <property name="Label" translatable="yes">Сайты и приложения</property>
-                <property name="Active">True</property>
                 <property name="DrawIndicator">False</property>
                 <property name="HasLabel">True</property>
                 <property name="UseUnderline">True</property>
@@ -97984,6 +98036,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">False</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -98623,6 +98676,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">False</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -98646,6 +98700,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">False</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -98669,6 +98724,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">False</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -99436,6 +99492,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">False</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -99875,6 +99932,7 @@ not tooltip</property>
                     <property name="MemberName" />
                     <property name="Events">ButtonPressMask</property>
                     <property name="CanEditReference">False</property>
+                    <property name="CanDisposeEntitySelectorFactory">False</property>
                     <property name="CanOpenWithoutTabParent">False</property>
                   </widget>
                   <packing>
@@ -100961,6 +101019,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">False</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -105452,6 +105511,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -105489,6 +105549,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -105526,6 +105587,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -105628,6 +105690,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -105664,6 +105727,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">False</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -106338,6 +106402,7 @@ not tooltip</property>
                 <property name="WidthRequest">330</property>
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -107041,6 +107106,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">False</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -107290,6 +107356,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">False</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -108072,6 +108139,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">True</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -108095,6 +108163,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">True</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -109257,6 +109326,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -110335,7 +110405,7 @@ not tooltip</property>
       </widget>
     </child>
   </widget>
-  <widget class="Gtk.Bin" id="Vodovoz.Views.Logistic.CarEventView" design-size="930 840">
+  <widget class="Gtk.Bin" id="Vodovoz.Views.Logistic.CarEventView" design-size="1183 1045">
     <property name="MemberName" />
     <property name="Visible">False</property>
     <child>
@@ -110408,10 +110478,13 @@ not tooltip</property>
         <child>
           <widget class="Gtk.Table" id="table1">
             <property name="MemberName" />
-            <property name="NRows">18</property>
+            <property name="NRows">20</property>
             <property name="NColumns">2</property>
             <property name="RowSpacing">6</property>
             <property name="ColumnSpacing">6</property>
+            <child>
+              <placeholder />
+            </child>
             <child>
               <widget class="Gamma.GtkWidgets.yCheckButton" id="checkbuttonDoNotShowInOperation">
                 <property name="MemberName" />
@@ -110422,8 +110495,8 @@ not tooltip</property>
                 <property name="UseUnderline">True</property>
               </widget>
               <packing>
-                <property name="TopAttach">15</property>
-                <property name="BottomAttach">16</property>
+                <property name="TopAttach">17</property>
+                <property name="BottomAttach">18</property>
                 <property name="LeftAttach">1</property>
                 <property name="RightAttach">2</property>
                 <property name="AutoSize">True</property>
@@ -110566,8 +110639,8 @@ not tooltip</property>
                 </child>
               </widget>
               <packing>
-                <property name="TopAttach">17</property>
-                <property name="BottomAttach">18</property>
+                <property name="TopAttach">19</property>
+                <property name="BottomAttach">20</property>
                 <property name="LeftAttach">1</property>
                 <property name="RightAttach">2</property>
                 <property name="AutoSize">True</property>
@@ -110596,11 +110669,33 @@ not tooltip</property>
                 </child>
               </widget>
               <packing>
-                <property name="TopAttach">16</property>
-                <property name="BottomAttach">17</property>
+                <property name="TopAttach">18</property>
+                <property name="BottomAttach">19</property>
                 <property name="LeftAttach">1</property>
                 <property name="RightAttach">2</property>
                 <property name="AutoSize">True</property>
+                <property name="XOptions">Fill</property>
+                <property name="YOptions">Fill</property>
+                <property name="XExpand">False</property>
+                <property name="XFill">True</property>
+                <property name="XShrink">False</property>
+                <property name="YExpand">False</property>
+                <property name="YFill">True</property>
+                <property name="YShrink">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Label" id="labeladdordersscan">
+                <property name="MemberName" />
+                <property name="Xalign">0</property>
+                <property name="LabelProp" translatable="yes">Добавить скан заказ-наряда</property>
+              </widget>
+              <packing>
+                <property name="TopAttach">13</property>
+                <property name="BottomAttach">14</property>
+                <property name="LeftAttach">1</property>
+                <property name="RightAttach">2</property>
+                <property name="AutoSize">False</property>
                 <property name="XOptions">Fill</property>
                 <property name="YOptions">Fill</property>
                 <property name="XExpand">False</property>
@@ -110679,8 +110774,8 @@ not tooltip</property>
                 <property name="LabelProp" translatable="yes">Комментарий:</property>
               </widget>
               <packing>
-                <property name="TopAttach">17</property>
-                <property name="BottomAttach">18</property>
+                <property name="TopAttach">19</property>
+                <property name="BottomAttach">20</property>
                 <property name="AutoSize">True</property>
                 <property name="XOptions">Fill</property>
                 <property name="YOptions">Fill</property>
@@ -110700,8 +110795,8 @@ not tooltip</property>
                 <property name="LabelProp" translatable="yes">Основание:</property>
               </widget>
               <packing>
-                <property name="TopAttach">16</property>
-                <property name="BottomAttach">17</property>
+                <property name="TopAttach">18</property>
+                <property name="BottomAttach">19</property>
                 <property name="AutoSize">True</property>
                 <property name="XOptions">Fill</property>
                 <property name="YOptions">Fill</property>
@@ -110721,8 +110816,8 @@ not tooltip</property>
                 <property name="LabelProp" translatable="yes">Не отражать в эксплуатации ТС</property>
               </widget>
               <packing>
-                <property name="TopAttach">15</property>
-                <property name="BottomAttach">16</property>
+                <property name="TopAttach">17</property>
+                <property name="BottomAttach">18</property>
                 <property name="AutoSize">True</property>
                 <property name="XOptions">Fill</property>
                 <property name="YOptions">Fill</property>
@@ -110801,6 +110896,86 @@ not tooltip</property>
               <packing>
                 <property name="TopAttach">3</property>
                 <property name="BottomAttach">4</property>
+                <property name="AutoSize">True</property>
+                <property name="XOptions">Fill</property>
+                <property name="YOptions">Fill</property>
+                <property name="XExpand">False</property>
+                <property name="XFill">True</property>
+                <property name="XShrink">False</property>
+                <property name="YExpand">False</property>
+                <property name="YFill">True</property>
+                <property name="YShrink">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Label" id="labelstoname">
+                <property name="MemberName" />
+                <property name="Xalign">1</property>
+                <property name="LabelProp" translatable="yes">Название СТО:</property>
+              </widget>
+              <packing>
+                <property name="TopAttach">15</property>
+                <property name="BottomAttach">16</property>
+                <property name="AutoSize">True</property>
+                <property name="XOptions">Fill</property>
+                <property name="YOptions">Fill</property>
+                <property name="XExpand">False</property>
+                <property name="XFill">True</property>
+                <property name="XShrink">False</property>
+                <property name="YExpand">False</property>
+                <property name="YFill">True</property>
+                <property name="YShrink">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="QS.Views.Control.EntityEntry" id="nodestoname">
+                <property name="MemberName" />
+                <property name="Events">ButtonPressMask</property>
+              </widget>
+              <packing>
+                <property name="TopAttach">15</property>
+                <property name="BottomAttach">16</property>
+                <property name="LeftAttach">1</property>
+                <property name="RightAttach">2</property>
+                <property name="AutoSize">True</property>
+                <property name="XOptions">Fill</property>
+                <property name="YOptions">Fill</property>
+                <property name="XExpand">False</property>
+                <property name="XFill">True</property>
+                <property name="XShrink">False</property>
+                <property name="YExpand">False</property>
+                <property name="YFill">True</property>
+                <property name="YShrink">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Table" id="table4">
+                <property name="MemberName" />
+                <property name="RowSpacing">6</property>
+                <property name="ColumnSpacing">6</property>
+                <child>
+                  <widget class="Gamma.GtkWidgets.yLabel" id="ylabelRepairPartsCost">
+                    <property name="MemberName" />
+                    <property name="Ypad">8</property>
+                    <property name="Xalign">1</property>
+                    <property name="LabelProp" translatable="yes">Стоимость складских запчастей:</property>
+                  </widget>
+                  <packing>
+                    <property name="AutoSize">False</property>
+                    <property name="XOptions">0</property>
+                    <property name="YOptions">Fill</property>
+                    <property name="XExpand">False</property>
+                    <property name="XFill">False</property>
+                    <property name="XShrink">False</property>
+                    <property name="YExpand">False</property>
+                    <property name="YFill">True</property>
+                    <property name="YShrink">False</property>
+                  </packing>
+                </child>
+              </widget>
+              <packing>
+                <property name="TopAttach">12</property>
+                <property name="BottomAttach">13</property>
                 <property name="AutoSize">True</property>
                 <property name="XOptions">Fill</property>
                 <property name="YOptions">Fill</property>
@@ -110983,59 +111158,135 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Spacing">6</property>
                 <child>
-                  <widget class="Gamma.GtkWidgets.ySpinButton" id="yspinRepairPartsCost">
+                  <widget class="Gtk.Table" id="table3">
                     <property name="MemberName" />
-                    <property name="CanFocus">True</property>
-                    <property name="Upper">1000000</property>
-                    <property name="PageIncrement">100</property>
-                    <property name="StepIncrement">1</property>
-                    <property name="ClimbRate">1</property>
-                    <property name="Digits">2</property>
-                    <property name="Numeric">True</property>
-                    <property name="ValueAsDecimal">0</property>
-                    <property name="ValueAsInt">0</property>
+                    <property name="NRows">2</property>
+                    <property name="NColumns">4</property>
+                    <property name="RowSpacing">6</property>
+                    <property name="ColumnSpacing">6</property>
+                    <child>
+                      <placeholder />
+                    </child>
+                    <child>
+                      <placeholder />
+                    </child>
+                    <child>
+                      <placeholder />
+                    </child>
+                    <child>
+                      <widget class="Gamma.GtkWidgets.yButton" id="buttonaddordersscan">
+                        <property name="MemberName" />
+                        <property name="CanFocus">True</property>
+                        <property name="Type">TextOnly</property>
+                        <property name="Label" translatable="yes">Добавить</property>
+                        <property name="UseUnderline">True</property>
+                      </widget>
+                      <packing>
+                        <property name="TopAttach">1</property>
+                        <property name="BottomAttach">2</property>
+                        <property name="LeftAttach">2</property>
+                        <property name="RightAttach">3</property>
+                        <property name="AutoSize">True</property>
+                        <property name="XOptions">Fill</property>
+                        <property name="YOptions">Fill</property>
+                        <property name="XExpand">False</property>
+                        <property name="XFill">True</property>
+                        <property name="XShrink">False</property>
+                        <property name="YExpand">False</property>
+                        <property name="YFill">True</property>
+                        <property name="YShrink">False</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <widget class="QS.Views.Control.EntityEntry" id="entityentryWriteOffDocument">
+                        <property name="MemberName" />
+                        <property name="Events">ButtonPressMask</property>
+                      </widget>
+                      <packing>
+                        <property name="LeftAttach">2</property>
+                        <property name="RightAttach">3</property>
+                        <property name="AutoSize">True</property>
+                        <property name="XOptions">Fill</property>
+                        <property name="YOptions">Fill</property>
+                        <property name="XExpand">False</property>
+                        <property name="XFill">True</property>
+                        <property name="XShrink">False</property>
+                        <property name="YExpand">False</property>
+                        <property name="YFill">True</property>
+                        <property name="YShrink">False</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <widget class="Gamma.GtkWidgets.yCheckButton" id="ycheckbuttonIsWriteOffDocumentNotRequired">
+                        <property name="MemberName" />
+                        <property name="CanFocus">True</property>
+                        <property name="Label" translatable="yes">Акт списания не нужен</property>
+                        <property name="DrawIndicator">True</property>
+                        <property name="HasLabel">True</property>
+                        <property name="UseUnderline">True</property>
+                      </widget>
+                      <packing>
+                        <property name="LeftAttach">3</property>
+                        <property name="RightAttach">4</property>
+                        <property name="AutoSize">True</property>
+                        <property name="XOptions">Fill</property>
+                        <property name="YOptions">Fill</property>
+                        <property name="XExpand">False</property>
+                        <property name="XFill">True</property>
+                        <property name="XShrink">False</property>
+                        <property name="YExpand">False</property>
+                        <property name="YFill">True</property>
+                        <property name="YShrink">False</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <widget class="Gamma.GtkWidgets.yLabel" id="ylabelWriteOffDocument">
+                        <property name="MemberName" />
+                        <property name="Xalign">1</property>
+                        <property name="LabelProp" translatable="yes">Акт списания:</property>
+                      </widget>
+                      <packing>
+                        <property name="LeftAttach">1</property>
+                        <property name="RightAttach">2</property>
+                        <property name="AutoSize">True</property>
+                        <property name="XOptions">Fill</property>
+                        <property name="YOptions">Fill</property>
+                        <property name="XExpand">False</property>
+                        <property name="XFill">True</property>
+                        <property name="XShrink">False</property>
+                        <property name="YExpand">False</property>
+                        <property name="YFill">True</property>
+                        <property name="YShrink">False</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <widget class="Gamma.GtkWidgets.ySpinButton" id="yspinRepairPartsCost">
+                        <property name="MemberName" />
+                        <property name="CanFocus">True</property>
+                        <property name="Upper">1000000</property>
+                        <property name="PageIncrement">100</property>
+                        <property name="StepIncrement">1</property>
+                        <property name="ClimbRate">1</property>
+                        <property name="Digits">2</property>
+                        <property name="Numeric">True</property>
+                        <property name="ValueAsDecimal">0</property>
+                        <property name="ValueAsInt">0</property>
+                      </widget>
+                      <packing>
+                        <property name="AutoSize">True</property>
+                        <property name="XOptions">Fill</property>
+                        <property name="YOptions">Fill</property>
+                        <property name="XExpand">False</property>
+                        <property name="XFill">True</property>
+                        <property name="XShrink">False</property>
+                        <property name="YExpand">False</property>
+                        <property name="YFill">True</property>
+                        <property name="YShrink">False</property>
+                      </packing>
+                    </child>
                   </widget>
                   <packing>
                     <property name="Position">0</property>
-                    <property name="AutoSize">True</property>
-                    <property name="Expand">False</property>
-                    <property name="Fill">False</property>
-                  </packing>
-                </child>
-                <child>
-                  <widget class="Gamma.GtkWidgets.yLabel" id="ylabelWriteOffDocument">
-                    <property name="MemberName" />
-                    <property name="Xalign">1</property>
-                    <property name="LabelProp" translatable="yes">Акт списания:</property>
-                  </widget>
-                  <packing>
-                    <property name="Position">1</property>
-                    <property name="AutoSize">True</property>
-                    <property name="Expand">False</property>
-                    <property name="Fill">False</property>
-                  </packing>
-                </child>
-                <child>
-                  <widget class="QS.Views.Control.EntityEntry" id="entityentryWriteOffDocument">
-                    <property name="MemberName" />
-                    <property name="Events">ButtonPressMask</property>
-                  </widget>
-                  <packing>
-                    <property name="Position">2</property>
-                    <property name="AutoSize">True</property>
-                  </packing>
-                </child>
-                <child>
-                  <widget class="Gamma.GtkWidgets.yCheckButton" id="ycheckbuttonIsWriteOffDocumentNotRequired">
-                    <property name="MemberName" />
-                    <property name="CanFocus">True</property>
-                    <property name="Label" translatable="yes">Акт списания не нужен</property>
-                    <property name="DrawIndicator">True</property>
-                    <property name="HasLabel">True</property>
-                    <property name="UseUnderline">True</property>
-                  </widget>
-                  <packing>
-                    <property name="Position">3</property>
                     <property name="AutoSize">True</property>
                     <property name="Expand">False</property>
                     <property name="Fill">False</property>
@@ -111201,34 +111452,14 @@ not tooltip</property>
               </packing>
             </child>
             <child>
-              <widget class="Gamma.GtkWidgets.yLabel" id="ylabelRepairPartsCost">
-                <property name="MemberName" />
-                <property name="Xalign">1</property>
-                <property name="LabelProp" translatable="yes">Стоимость складских запчастей:</property>
-              </widget>
-              <packing>
-                <property name="TopAttach">12</property>
-                <property name="BottomAttach">13</property>
-                <property name="AutoSize">True</property>
-                <property name="XOptions">Fill</property>
-                <property name="YOptions">Fill</property>
-                <property name="XExpand">False</property>
-                <property name="XFill">True</property>
-                <property name="XShrink">False</property>
-                <property name="YExpand">False</property>
-                <property name="YFill">True</property>
-                <property name="YShrink">False</property>
-              </packing>
-            </child>
-            <child>
               <widget class="Gamma.GtkWidgets.yLabel" id="ylabelRepairSummaryCost">
                 <property name="MemberName" />
                 <property name="Xalign">1</property>
                 <property name="LabelProp" translatable="yes">Итоговая стоимость:</property>
               </widget>
               <packing>
-                <property name="TopAttach">13</property>
-                <property name="BottomAttach">14</property>
+                <property name="TopAttach">14</property>
+                <property name="BottomAttach">15</property>
                 <property name="AutoSize">True</property>
                 <property name="XOptions">Fill</property>
                 <property name="YOptions">Fill</property>
@@ -111247,8 +111478,8 @@ not tooltip</property>
                 <property name="LabelProp" translatable="yes">Показания одометра, км:</property>
               </widget>
               <packing>
-                <property name="TopAttach">14</property>
-                <property name="BottomAttach">15</property>
+                <property name="TopAttach">16</property>
+                <property name="BottomAttach">17</property>
                 <property name="AutoSize">True</property>
                 <property name="XOptions">Fill</property>
                 <property name="YOptions">Fill</property>
@@ -111273,8 +111504,8 @@ not tooltip</property>
                 <property name="ValueAsInt">0</property>
               </widget>
               <packing>
-                <property name="TopAttach">14</property>
-                <property name="BottomAttach">15</property>
+                <property name="TopAttach">16</property>
+                <property name="BottomAttach">17</property>
                 <property name="LeftAttach">1</property>
                 <property name="RightAttach">2</property>
                 <property name="AutoSize">True</property>
@@ -111331,8 +111562,8 @@ not tooltip</property>
                 <property name="ValueAsInt">0</property>
               </widget>
               <packing>
-                <property name="TopAttach">13</property>
-                <property name="BottomAttach">14</property>
+                <property name="TopAttach">14</property>
+                <property name="BottomAttach">15</property>
                 <property name="LeftAttach">1</property>
                 <property name="RightAttach">2</property>
                 <property name="AutoSize">True</property>
@@ -111349,10 +111580,13 @@ not tooltip</property>
           </widget>
           <packing>
             <property name="Position">1</property>
-            <property name="AutoSize">True</property>
+            <property name="AutoSize">False</property>
             <property name="Expand">False</property>
             <property name="Fill">False</property>
           </packing>
+        </child>
+        <child>
+          <placeholder />
         </child>
         <child>
           <widget class="Gtk.Label" id="labelComment4">
@@ -111362,7 +111596,7 @@ not tooltip</property>
             <property name="LabelProp" translatable="yes">Возмещение затрат за счет штрафов:</property>
           </widget>
           <packing>
-            <property name="Position">2</property>
+            <property name="Position">3</property>
             <property name="AutoSize">True</property>
             <property name="Expand">False</property>
             <property name="Fill">False</property>
@@ -111381,7 +111615,7 @@ not tooltip</property>
             </child>
           </widget>
           <packing>
-            <property name="Position">3</property>
+            <property name="Position">4</property>
             <property name="AutoSize">True</property>
           </packing>
         </child>
@@ -111424,7 +111658,7 @@ not tooltip</property>
             </child>
           </widget>
           <packing>
-            <property name="Position">4</property>
+            <property name="Position">5</property>
             <property name="AutoSize">True</property>
             <property name="Expand">False</property>
             <property name="Fill">False</property>
@@ -111485,6 +111719,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -111507,6 +111742,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -111529,6 +111765,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -111821,6 +112058,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">False</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -112199,7 +112437,6 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
                 <property name="Label" translatable="yes">Информация о скидке</property>
-                <property name="Active">True</property>
                 <property name="DrawIndicator">False</property>
                 <property name="HasLabel">True</property>
                 <property name="UseUnderline">True</property>
@@ -113069,6 +113306,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">False</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -113248,6 +113486,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">True</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -113271,6 +113510,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">True</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -113293,6 +113533,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">True</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -113337,6 +113578,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">True</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -115085,7 +115327,6 @@ not tooltip</property>
                     <property name="MemberName" />
                     <property name="CanFocus">True</property>
                     <property name="Label" translatable="yes">Информация</property>
-                    <property name="Active">True</property>
                     <property name="DrawIndicator">False</property>
                     <property name="HasLabel">True</property>
                     <property name="UseUnderline">True</property>
@@ -126654,6 +126895,7 @@ not tooltip</property>
                                           <widget class="Gamma.GtkWidgets.yEntry" id="yentryUpcomingTechInspectKm">
                                             <property name="MemberName" />
                                             <property name="CanFocus">True</property>
+                                            <property name="IsEditable">True</property>
                                             <property name="InvisibleChar">•</property>
                                           </widget>
                                           <packing>
@@ -126989,7 +127231,6 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
                 <property name="Label" translatable="yes">Логистика</property>
-                <property name="Active">True</property>
                 <property name="DrawIndicator">False</property>
                 <property name="HasLabel">True</property>
                 <property name="UseUnderline">True</property>
@@ -135596,6 +135837,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">True</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -135617,6 +135859,7 @@ not tooltip</property>
             <property name="MemberName" />
             <property name="Events">ButtonPressMask</property>
             <property name="CanEditReference">True</property>
+            <property name="CanDisposeEntitySelectorFactory">False</property>
             <property name="CanOpenWithoutTabParent">False</property>
           </widget>
           <packing>
@@ -135877,6 +136120,7 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="Events">ButtonPressMask</property>
                 <property name="CanEditReference">True</property>
+                <property name="CanDisposeEntitySelectorFactory">False</property>
                 <property name="CanOpenWithoutTabParent">False</property>
               </widget>
               <packing>
@@ -138251,6 +138495,7 @@ not tooltip</property>
                         <property name="MemberName" />
                         <property name="Events">ButtonPressMask</property>
                         <property name="CanEditReference">True</property>
+                        <property name="CanDisposeEntitySelectorFactory">False</property>
                         <property name="CanOpenWithoutTabParent">False</property>
                       </widget>
                       <packing>
@@ -138273,6 +138518,7 @@ not tooltip</property>
                         <property name="MemberName" />
                         <property name="Events">ButtonPressMask</property>
                         <property name="CanEditReference">True</property>
+                        <property name="CanDisposeEntitySelectorFactory">False</property>
                         <property name="CanOpenWithoutTabParent">False</property>
                       </widget>
                       <packing>
@@ -139154,6 +139400,7 @@ not tooltip</property>
                                     <property name="MemberName" />
                                     <property name="Events">ButtonPressMask</property>
                                     <property name="CanEditReference">True</property>
+                                    <property name="CanDisposeEntitySelectorFactory">False</property>
                                     <property name="CanOpenWithoutTabParent">False</property>
                                   </widget>
                                   <packing>
@@ -139177,6 +139424,7 @@ not tooltip</property>
                                     <property name="MemberName" />
                                     <property name="Events">ButtonPressMask</property>
                                     <property name="CanEditReference">True</property>
+                                    <property name="CanDisposeEntitySelectorFactory">False</property>
                                     <property name="CanOpenWithoutTabParent">False</property>
                                   </widget>
                                   <packing>
@@ -157093,7 +157341,6 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
                 <property name="Label" translatable="yes">Объемный учет</property>
-                <property name="Active">True</property>
                 <property name="DrawIndicator">False</property>
                 <property name="HasLabel">True</property>
                 <property name="Group">group1</property>
@@ -166007,7 +166254,6 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
                 <property name="Label" translatable="yes">Принадлежность ТС на дату:</property>
-                <property name="Active">True</property>
                 <property name="DrawIndicator">True</property>
                 <property name="HasLabel">True</property>
                 <property name="UseUnderline">True</property>
@@ -172220,7 +172466,6 @@ not tooltip</property>
           <packing>
             <property name="Position">1</property>
             <property name="AutoSize">False</property>
-            <property name="Expand">True</property>
             <property name="Fill">False</property>
           </packing>
         </child>
@@ -172451,7 +172696,6 @@ not tooltip</property>
                 <property name="WidthRequest">180</property>
                 <property name="CanFocus">True</property>
                 <property name="Label" translatable="yes">Сверка по контрагенту</property>
-                <property name="Active">True</property>
                 <property name="DrawIndicator">False</property>
                 <property name="HasLabel">True</property>
                 <property name="UseUnderline">True</property>
@@ -174076,7 +174320,7 @@ not tooltip</property>
       </widget>
     </child>
   </widget>
-  <widget class="Gtk.Bin" id="Vodovoz.Logistic.DistrictSetDiffReportConfirmationView" design-size="576 170">
+  <widget class="Gtk.Bin" id="Vodovoz.Logistic.DistrictSetDiffReportConfirmationView" design-size="576 180">
     <property name="MemberName" />
     <property name="Visible">False</property>
     <child>
@@ -183680,7 +183924,6 @@ not tooltip</property>
                                     <property name="MemberName" />
                                     <property name="CanFocus">True</property>
                                     <property name="Label" translatable="yes">ДД</property>
-                                    <property name="Active">True</property>
                                     <property name="DrawIndicator">False</property>
                                     <property name="HasLabel">True</property>
                                     <property name="Group">group1</property>
@@ -191731,7 +191974,6 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
                 <property name="Label" translatable="yes">Основной</property>
-                <property name="Active">True</property>
                 <property name="DrawIndicator">True</property>
                 <property name="HasLabel">True</property>
                 <property name="UseUnderline">True</property>
@@ -197112,7 +197354,6 @@ not tooltip</property>
                 <property name="MemberName" />
                 <property name="CanFocus">True</property>
                 <property name="Label" translatable="yes">доставки</property>
-                <property name="Active">True</property>
                 <property name="DrawIndicator">True</property>
                 <property name="HasLabel">True</property>
                 <property name="UseUnderline">True</property>
